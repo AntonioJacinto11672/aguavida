@@ -1,0 +1,130 @@
+/* Estilização do Titulo */
+.container-title {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 55px;
+    color: #424144;
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.principal {
+    margin-left: 5px;
+}
+
+
+
+.secundary {
+    margin-right: 10px;
+
+}
+
+.secundary p {
+    font-size: small;
+    font-family: "Roboto";
+}
+
+
+
+
+/* Estilização da Descrição e Imagena */
+
+.content-comprar-agora-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.img img {
+    height: 600px;
+    width: 600px;
+}
+
+.description-primary {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+
+.price-comprar {
+    display: flex;
+    justify-content: space-between;
+    color: #1e246d;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 2px solid #1e246d;
+
+}
+
+.icon-comprar-direcao i {
+    letter-spacing: 10px;
+}
+
+.price-comprar-1 {
+    font-size: 20px;
+}
+
+.description-secundary {
+    line-height: 30px;
+}
+
+.description-p {
+    text-align: justify;
+}
+
+.title-comprar-agora-description {
+    margin: 20px;
+}
+
+/* Estilizando formulario */
+
+form {
+    margin-top: 50px;
+
+}
+
+input[type=number] {
+    outline: none;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: white;
+    background-color: #1e246d;
+    border-radius: 2px;
+    border: 1px solid #1e246d;
+    cursor: pointer;
+}
+
+
+.categria-comprar {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilizando Imagem */
+.content-comprar-agora-1 img {
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-comprar-agora-1 img:hover {
+    transform: scaleX(-1);
+  }

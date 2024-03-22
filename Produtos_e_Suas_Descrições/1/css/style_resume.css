@@ -1,0 +1,155 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    padding: 20px 55px;
+
+}
+
+
+
+.sumario-carrinho {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
+
+.menu-sumario {
+    margin-bottom: 30px;
+}
+
+.menu-sumario ol {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #424144;
+    border-radius: 15px 20px 20px 0px;
+
+}
+
+.menu-sumario ol li {
+    padding: 14px 16px;
+    width: 100%;
+    border-radius: 15px 20px 20px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-right: 2px solid #424144;
+}
+
+.active-resume {
+    background-color: #1e246d;
+    color: white;
+}
+
+/* Table Style  */
+.table-resume-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fbfbfb;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin-bottom: 50px;
+
+}
+input[type=number] {
+    outline: none;
+    width: 25%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    
+}
+.table-resume-1 tr:nth-child(2) {
+    background-color: white;
+    border: none !important;
+
+}
+
+.width-bolder td,
+.table-resume-1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+   padding: 15px;
+}
+
+
+
+.table-resume-1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1e246d;
+    color: white;
+    text-align: center;
+    
+}
+.table-estate {
+    color: rgb(52, 255, 52);
+    font-weight: bold;
+}
+
+.td-img {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+.value-format-1 {
+    color: #1e246d;
+    font-weight: 900;
+}
+
+.text-cinzentado {
+    color: #9b9b9b;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.total-maior {
+    font-size: 20px!important;
+    font-weight: bold!important;
+}
+
+
+/* Estilizando OS Botões */
+
+.resume-button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.resume-continue-buy-back a {
+    color: #424144;
+}
+
+.consultar-price {
+    border: 1px solid #424144;
+    padding: 10px;
+    border-radius: 5px;
+}
+.consultar-price-1 {
+    background-color: white;
+    color: #2a292b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.consultar-price-2 {
+    background-color: #1e246d;
+    color: white;
+    cursor: pointerx;
+}
